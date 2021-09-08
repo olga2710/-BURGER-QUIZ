@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         btnOpenModal = document.querySelector("#btnOpenModal");
 
 
-    btnOpenModal.addEventListener('click', ()=>{
+    btnOpenModal.addEventListener('click', ()=>{ 
     
 })
 })
