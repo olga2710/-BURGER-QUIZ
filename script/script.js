@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
 
     closeModal.addEventListener('click', ()=>{
-        modal.classList.remove('d-block');
+        modal.classList.remove('d-block'); 
     })
 })
