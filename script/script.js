@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
     btnOpenModal.addEventListener('click', ()=>{
-        modal.classList.add('d-block'); 
+        modal.classList.add('d-block');  
     
 })
 })
