@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         }
         
         playTest=()=>{
-            const renderQuistion = ()=>{
+            const renderQuistion = ()=>{ 
                 questionTitle.textContent = 'Какого цвета бургер Вы хотите?'
 
                 formAnswers.innerHTML= `
