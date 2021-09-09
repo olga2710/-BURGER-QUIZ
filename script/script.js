@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                     const answerItem = document.createElement('div');
                     answerItem.classList.add('answers-item','d-flex', 'flex-column');
                     answerItem.innerHTML= `
-                    <input type="${questions[i].type}" id="${answer.name}" name="answer" class="d-none">
+                    <input type="${questions[i].type}" id="${answer.name}" name="answer" class="d-none"> 
                     <label for="${answer.name}" class="d-flex flex-column justify-content-between">
                     <img class="answerImg" src="${answer.img}" alt="burger">
                     <span>${answer.name}</span>
